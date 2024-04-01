@@ -1,13 +1,328 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    font-family: manrope;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "manrope";
+  box-sizing: border-box;
+}
+.container {
+  width: 1120px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.container-fluid {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+:root {
+  --buttonclr: rgba(92, 134, 146, 1);
+  --lgtbgcolor: rgba(235, 243, 245, 1);
+  --drkbgcolor: rgba(30, 44, 48, 1);
+  --font: "Playfair Display", serif;
+  --font-weight: 400;
+}
+.nav .logo h1 {
+  font-family: var(--font);
+  /* font-size: 28px;
+    font-weight: 700; */
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav span {
+  position: relative;
+  right: 143px;
+}
+.nav {
+  padding: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+.nav li a button {
+  background: rgba(122, 156, 165, 1);
+  padding: 10px 15px;
+  margin-top: -10px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.BeautyPower {
+  display: flex;
+  flex-direction: row;
+}
+.leftBPower {
+  background-color: var(--lgtbgcolor);
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 0px 80px 0px 214px;
+}
+.rightBPower {
+  padding: 160px 0px;
+  background-color: var(--drkbgcolor);
+  width: 45%;
+}
+.leftBPower p {
+  color: rgba(92, 134, 146, 1);
+  text-align: left;
+ 
+}
+.leftBPower h4 {
+  color: rgba(85, 85, 85, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+}
+.leftBPower span {
+  background-color: var(--buttonclr);
+  padding: 15px 26px;
+  color: white;
+}
+.leftBPower h1 {
+  font-family: var(--font);
+  font-size: 48px;
+}
+.rightBPower img {
+  position: relative;
+  width: 430px;
+  left: -115px;
+  /* top: -30px; */
+  box-shadow: 0px 10px 50px 0px rgba(47, 68, 73, 0.46);
 }
 
-.nav
+.box {
+  top: 6px;
+  position: relative;
+  width: 430px;
+  border-width: 10px 10px 10px 0px;
+  border-style: solid;
+  border-color: aliceblue;
+  padding: 50px;
+}
+.BeautyAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.BeautyAbout .boxBAbout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.BeautyAbout .boxBAbout h1 {
+  font-family: var(--font);
+}
+
+.BeautyAbout .boxBAbout p {
+  font-weight: var(--font-weight);
+  color: rgba(85, 85, 85, 1);
+  line-height: 2;
+}
+.boxBAbout button {
+  font-weight: 700;
+  padding: 10px 35px;
+  border: 2px solid var(--buttonclr);
+  background-color: transparent;
+}
+.boxBAbout {
+  padding: 20px;
+}
+.AboutUS {
+  background-color: var(--lgtbgcolor);
+  display: flex;
+  justify-content: center;
+padding-bottom: 20px;
+
+}
+.leftAbout
 {
- padding: 20px; 
-color:black
+width: 50%;
+}
+.rightAbout
+{
+width: 50%;
+}
+.beautyAboutBox
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+.beautyAboutBox .babox
+{
+  padding: 10px 40px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+.beautyAboutBox h1
+{
+  font-family: var(--font);
+font-size: 18px;
+margin-top: 5px;
+font-weight: 700;
+line-height: 26.4px;
+text-align: center;
+
+}
+
+.rightBAbout
+{
+  background-color: var(--lgtbgcolor);
+}
+.BAbox
+{
+  background-image: url(assets/Background.jpg);
+  width: 420px;
+  height: 500px;
+  right: -80px;
+  border: none;
+
+}
+.Services
+{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Services h1
+{
+  font-family: var(--font);
+  font-size: 48px;
+}
+.MainServices
+{
+  margin:50px 0px;
+  position: relative;
+}
+.MainServices img
+{
+  width: 50%;
+}
+.MainServices .subBox
+{
+  width: 50%;
+}
+.ServiceBox
+{
+  display: flex;
+
+}
+.subBox
+{
+  padding: 0px 40px 0pc 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+.ServiceBox .subBox p b
+{
+  font-size: 20px;
+  font-family: var(--font);
+  font-weight: 700;
+}
+.ServiceBox  .subBox span
+{
+ color: rgba(85, 85, 85, 1);
+
+}
+.bluebox
+{
+  width: 150px;
+  height: 150px;
+  background: rgba(19, 66, 54, 0.6);
+
+  position: absolute;
+  top: 50%;
+  right: 37%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+
+}
+.MainServices button
+{
+  position: relative;
+  top: -49px;
+
+
+}
+
+.testimonials
+{
+  background-color: var(--lgtbgcolor);
+  padding: 100px 0;
+}
+.maintestmonials
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+
+
+}
+.testmonialbox
+{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  flex-direction: column;
+
+  background: rgba(255, 255, 255, 1);
+
+
+}
+.testmonialtext
+{
+  padding: 20px;
+}
+.customerreviews
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  gap: 30px;
+  
+}
+.customerreviews .reviews i
+{
+color: white;
 }
