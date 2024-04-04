@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "manrope";
   box-sizing: border-box;
+
 }
 .container {
   width: 1120px;
@@ -87,7 +88,6 @@ nav ul li a {
 .leftBPower p {
   color: rgba(92, 134, 146, 1);
   text-align: left;
- 
 }
 .leftBPower h4 {
   color: rgba(85, 85, 85, 1);
@@ -156,91 +156,70 @@ nav ul li a {
   background-color: var(--lgtbgcolor);
   display: flex;
   justify-content: center;
-padding-bottom: 20px;
-
+  padding-bottom: 20px;
 }
-.leftAbout
-{
-width: 50%;
+.leftAbout {
+  width: 50%;
 }
-.rightAbout
-{
-width: 50%;
+.rightAbout {
+  width: 50%;
 }
-.beautyAboutBox
-{
-
+.beautyAboutBox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-
 }
-.beautyAboutBox .babox
-{
+.beautyAboutBox .babox {
   padding: 10px 40px;
   text-align: center;
   border: 1px solid black;
   background-color: white;
 }
-.beautyAboutBox h1
-{
+.beautyAboutBox h1 {
   font-family: var(--font);
-font-size: 18px;
-margin-top: 5px;
-font-weight: 700;
-line-height: 26.4px;
-text-align: center;
-
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center;
 }
 
-.rightBAbout
-{
+.rightBAbout {
   background-color: var(--lgtbgcolor);
 }
-.BAbox
-{
+.BAbox {
   background-image: url(assets/Background.jpg);
   width: 420px;
   height: 500px;
   right: -80px;
   border: none;
-
 }
-.Services
-{
- 
+.Services {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.Services h1
-{
+.Services> h1 {
   font-family: var(--font);
   font-size: 48px;
 }
-.MainServices
-{
-  margin:50px 0px;
+.MainServices {
+  margin: 50px 0px;
   position: relative;
 }
-.MainServices img
-{
+.MainServices img {
   width: 50%;
 }
-.MainServices .subBox
-{
+.MainServices .subBox {
   width: 50%;
 }
-.ServiceBox
-{
+.ServiceBox {
   display: flex;
-
 }
-.subBox
-{
+.subBox {
   padding: 0px 40px 0pc 0px;
   display: flex;
   flex-direction: column;
@@ -248,19 +227,15 @@ text-align: center;
   align-items: flex-start;
   gap: 25px;
 }
-.ServiceBox .subBox p b
-{
+.ServiceBox .subBox p b {
   font-size: 20px;
   font-family: var(--font);
   font-weight: 700;
 }
-.ServiceBox  .subBox span
-{
- color: rgba(85, 85, 85, 1);
-
+.ServiceBox .subBox span {
+  color: rgba(85, 85, 85, 1);
 }
-.bluebox
-{
+.bluebox {
   width: 150px;
   height: 150px;
   background: rgba(19, 66, 54, 0.6);
@@ -270,59 +245,256 @@ text-align: center;
   right: 37%;
   transform: translate(-50%, -50%);
   z-index: -1;
-
-
 }
-.MainServices button
-{
+.MainServices button {
   position: relative;
   top: -49px;
-
-
 }
 
-.testimonials
-{
+.testimonials {
   background-color: var(--lgtbgcolor);
   padding: 100px 0;
 }
-.maintestmonials
-{
+.maintestmonials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 20px;
-
-
+  margin: 60px 0px;
 }
-.testmonialbox
-{
+.testmonialbox {
   display: flex;
   justify-content: flex-start;
   width: 50%;
   flex-direction: column;
-
   background: rgba(255, 255, 255, 1);
-
-
 }
-.testmonialtext
-{
-  padding: 20px;
+.testmonialtext {
+  text-align: start;
+  padding: 30px;
+  line-height: 2;
 }
-.customerreviews
-{
+.customerreviews {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   padding: 20px;
-  background-color: black;
+  background-color: var(--drkbgcolor);
   color: white;
   gap: 30px;
+  padding: 20px;
+}
+.customerreviews .reviews i {
+  color: white;
+}
+.customerreviews .reviews {
+  position: relative;
+  line-height: 1.5;
+  left: -50px;
+  text-align: start;
+}
+.customerreviews .reviews h4 {
+  font-family: var(--font);
+}
+.customerreviews .reviews p {
+  font-size: 12px;
+}
+.mainbenefits
+{
+display: flex;
+  margin-top: 50px;
+}
+.Benefits .benefitsbox h1
+{
+  font-size: 26px;
+}
+.Benefits .benefitsbox p
+{
+  font-weight: 400;
+color: 
+rgba(85, 85, 85, 1);
+}
+.benefitsbox
+{
+padding: 30px;
+}
+.Discount
+{
+  display: flex;
+}
+.RDiscount
+{
+  padding: 100px 100px;
+  background-color: var(--lgtbgcolor);
+}
+.RDiscount .form
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  padding: 40px 30px;
+  align-items: center;
+}
+.form p
+{
+background: rgba(255, 255, 255, 1);
+  ;
+  padding: 10px 150px 10px  20px;
+  border-width:1px ;
+  border-style: solid;
+  border-color: rgba(92, 134, 146, 1);
+  color: rgba(85, 85, 85, 1);
   
 }
-.customerreviews .reviews i
+.RDiscount .form
 {
-color: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+
+}
+.form input
+{
+  outline: none;
+  border: none;
+  font-weight: 400;
+}
+.form p i
+{
+  color: var(--buttonclr);
+  margin-right: 10px;
+ 
+}
+.form button
+{
+  color:rgba(255, 255, 255, 1);
+  padding: 15px 100px;
+  border: none;
+  background-color: var(--buttonclr);
+  font-weight: 800;
+  cursor: pointer;
+}
+.Blog .Blogbox
+{
+  text-align: start;
+  margin: 40px 25px;
+  background-color: var(--lgtbgcolor);
+  padding: 0px 0px 20px 0px;
+}
+
+.Blogbox p,h1,span
+{
+  margin: 0px 20px;
+
+}
+.Blog button
+{
+  padding: 15px 20px;
+border-style: solid;
+border-width: 2px;
+border-color: var(--buttonclr);
+background-color: transparent;
+font-weight: 800;
+letter-spacing: 1.5px;
+
+
+}
+.footer
+{
+  background-color: rgba(30, 44, 48, 1);
+
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ padding: 50px 100px;
+
+}
+
+.footertitles
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.581);
+  
+
+
+}
+.footertitles ul li
+{
+  list-style: none;
+  border: 2px solid rgba(92, 134, 146, 1);
+  margin: 5px;
+
+}
+.footertitles ul
+{
+  display: flex;
+}
+.footertitles ul li a
+{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  
+}
+
+.footerbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0px;
+}
+.footerbox
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  color: white;
+  /* align-items: center; */
+}
+.footerbox ul li
+{
+  list-style: none;
+}
+.footerbox ul li a
+
+{
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 10px 0px;
+  
+}
+.footerbox h1
+{
+  font-family: "playfair";
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.footerbox span
+{
+  font-weight: 700;
+}
+.footerbox h1
+{
+  margin: 0;
+}
+.copyright
+{
+  background: rgba(17, 30, 34, 1);
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+ 
+
 }
