@@ -5,11 +5,11 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body,html
+/* body,html
 {
     width: 100%;
     height: 100%;
-}
+} */
 .main
 {
     height: 100%;
@@ -147,5 +147,18 @@ img
     width: 50px;
     line-height: 2.5;
     text-align: center;
+    transition: 1.5s;
 
+}
+.btm-middl .box:hover
+{
+    background-color: black;
+    transform: translateY(50px);
+    
+}
+.btm-middl .box:hover i
+{
+    color: white;
+
+ 
 }
